@@ -1,0 +1,36 @@
+body
+{
+    font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6A7798;
+}
+.container
+{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+a
+{
+    text-decoration: none;
+}
+.container__sub
+{
+    max-width: 940px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 1024px)
+{
+    .container__pad
+    {
+        padding-right: 80px;
+    }
+}
+
+@import "header";
+
+@import "promo";
+
+@import "footer"
